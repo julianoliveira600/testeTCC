@@ -18,7 +18,9 @@ def carrega_modelo():
     """
     # Você precisará gerar um novo link de compartilhamento para o NOVO arquivo.
     # Link para: modelo_compativel_quantizado.tflite
-    url = 'COLOQUE_O_NOVO_LINK_COMPARTILHÁVEL_AQUI' 
+    #https://drive.google.com/file/d/1H1fcJRSzEMIpX5gidh6Z32Uo9owO-u5d/view?usp=drive_link
+    url = 'https://drive.google.com/uc?id=1H1fcJRSzEMIpX5gidh6Z32Uo9owO-u5d' 
+    #url = 'https://drive.google.com/uc?id=1Gp3W6VwF4CpwQEmbAOuVW4mopXluVex9'
     
     # Baixa o novo arquivo do Google Drive
     gdown.download(url, 'modelo_compativel_quantizado.tflite', quiet=False)
