@@ -21,7 +21,9 @@ def carrega_modelo():
     # !! IMPORTANTE !!
     # COLE AQUI O NOVO LINK DE COMPARTILHAMENTO GERADO NO PASSO 1
     # Link para o arquivo: 'modelo_final_compativel.tflite'
-    url = 'COLOQUE AQUI O NOVO LINK GERADO' 
+    #url = 'https://drive.google.com/uc?id=1Gp3W6VwF4CpwQEmbAOuVW4mopXluVex9'
+    #https://drive.google.com/file/d/1H1fcJRSzEMIpX5gidh6Z32Uo9owO-u5d/view?usp=drive_link
+    url = 'https://drive.google.com/uc?id=1H1fcJRSzEMIpX5gidh6Z32Uo9owO-u5d' 
     # ==============================================================================
     
     output_filename = 'modelo_final_compativel.tflite'
