@@ -20,7 +20,7 @@ def carrega_modelo():
     # Link para: modelo_compativel_quantizado.tflite
     #https://drive.google.com/file/d/1H1fcJRSzEMIpX5gidh6Z32Uo9owO-u5d/view?usp=drive_link
     url = 'https://drive.google.com/uc?id=1H1fcJRSzEMIpX5gidh6Z32Uo9owO-u5d' 
-    #url = 'https://drive.google.com/uc?id=1Gp3W6VwF4CpwQEmbAOuVW4mopXluVex9'
+    
     
     # Baixa o novo arquivo do Google Drive
     gdown.download(url, 'modelo_compativel_quantizado.tflite', quiet=False)
